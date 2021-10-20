@@ -1,9 +1,9 @@
 import express from "express";
-import { AuthenticateUserController } from "../controllers/AuthenticateUserController";
-import { CreateMessageController } from "../controllers/CreateMessageController";
-import { GetLastMessagesController } from "../controllers/GetLastMessagesController";
-import { ProfileUserController } from "../controllers/ProfileUserController";
-import { EnsureAuthenticateUser } from "../middlewares/EnsureAuthenticateUser";
+import { AuthenticateUserController } from "./controllers/AuthenticateUserController";
+import { CreateMessageController } from "./controllers/CreateMessageController";
+import { GetLastMessagesController } from "./controllers/GetLastMessagesController";
+import { ProfileUserController } from "./controllers/ProfileUserController";
+import { EnsureAuthenticateUser } from "./middlewares/EnsureAuthenticateUser";
 
 const router = express.Router();
 
